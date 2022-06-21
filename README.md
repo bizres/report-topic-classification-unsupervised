@@ -16,6 +16,3 @@ This repository contains the code to generate keywords for topics based on Wikip
 - If necessary, install Python 3.9 and Pipenv and spawn a virtual environment with ```pipenv shell```
 - Install libraries using the Pipfile with ```pipenv install```
 - Have fun developing ;-)
-
-## Legacy
-Before coming up with the approach to use Wikipeida knowledge to detect sustainability topics, we tried an approach to train a model based on pre-labeled data. This approach did not bear fruit because i) there does not exist a training set suitet for the task ii) we did not have the ressources to build up such a training set, iii) the topics we are looking for are too fuzzy to come up with a clear cut labeling approach and iv) we needed an approach which can dynamically look for topics which may emerge in the future. For documentation reasons, the folder [deprecated_labeling_approach](https://github.com/bizres/report-topic-classification/tree/master/deprecated_labeling_approach) contains the project which follows the pre-labeling-approach. The folder contains its own README whcih explains the structure of the project.
